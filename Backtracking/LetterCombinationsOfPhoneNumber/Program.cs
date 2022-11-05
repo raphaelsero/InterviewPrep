@@ -36,21 +36,37 @@ namespace LetterCombinationsOfPhoneNumber
         {
             //TODO: implement test cases
         }
-        public IList<string> LetterCombinations(string digits)
-        {
-            if (digits.Length == 0) return combinations;
 
+        // Time: O(V^N * N), where N is digits.Length and V is max value length. Space: O(N) where N is digits.Length
+        public IList<string> LetterCombinations(string digits) 
+        {
+            if (digits.Length == 0) return combinations; // If the input is empty, immediately return an empty answer array
+
+            // Initiate backtracking with an empty path and starting index of 0
             phoneDigits = digits;
+            Backtrack(0, new StringBuilder());
+            return combinations;
         }
 
-        public void Backtrack(int idx, StringBuilder path)
+        public void Backtrack(int idx, StringBuilder path) 
         {
+            // If the path is the same length as digits, we have a complete combination
             if (path.Length == phoneDigits.Length)
             {
                 combinations.Add(path.ToString());
                 return;
             }
 
+            // Get the letters that the current digit maps to, and loop through them
+            if (letters.TryGetValue(phoneDigits[idx], out string? possibleLetters))
+            {
+                foreach (char l in possibleLetters)
+                {
+                    path.Append(l);                 // Add the letter to our current path
+                    Backtrack(idx + 1, path);       // Move on to the next digit
+                    path.Remove(path.Length - 1, 1);// Backtrack by removing the letter before moving onto the next
+                }
+            }
         }
     }
 }
