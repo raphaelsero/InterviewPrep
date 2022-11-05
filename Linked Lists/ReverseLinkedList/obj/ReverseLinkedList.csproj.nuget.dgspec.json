@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rapha\\source\\repos\\InterviewPrep\\Arrays and Strings\\TwoSum\\TwoSum.csproj": {}
+    "C:\\Users\\rapha\\source\\repos\\InterviewPrep\\Linked Lists\\ReverseLinkedList\\ReverseLinkedList.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rapha\\source\\repos\\InterviewPrep\\Arrays and Strings\\TwoSum\\TwoSum.csproj": {
+    "C:\\Users\\rapha\\source\\repos\\InterviewPrep\\Linked Lists\\ReverseLinkedList\\ReverseLinkedList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rapha\\source\\repos\\InterviewPrep\\Arrays and Strings\\TwoSum\\TwoSum.csproj",
-        "projectName": "TwoSum",
-        "projectPath": "C:\\Users\\rapha\\source\\repos\\InterviewPrep\\Arrays and Strings\\TwoSum\\TwoSum.csproj",
+        "projectUniqueName": "C:\\Users\\rapha\\source\\repos\\InterviewPrep\\Linked Lists\\ReverseLinkedList\\ReverseLinkedList.csproj",
+        "projectName": "ReverseLinkedList",
+        "projectPath": "C:\\Users\\rapha\\source\\repos\\InterviewPrep\\Linked Lists\\ReverseLinkedList\\ReverseLinkedList.csproj",
         "packagesPath": "C:\\Users\\rapha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rapha\\source\\repos\\InterviewPrep\\Arrays and Strings\\TwoSum\\obj\\",
+        "outputPath": "C:\\Users\\rapha\\source\\repos\\InterviewPrep\\Linked Lists\\ReverseLinkedList\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

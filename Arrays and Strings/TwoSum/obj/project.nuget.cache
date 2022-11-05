@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ou5ReTQ4Z62mXaEBaU6ZrSxYLQc7E/CB/tHVmXmxRYv/ay0t89wv/dyceaQHQsPGoF7F5+qBwiv/7Q4nYxYR7Q==",
+  "dgSpecHash": "MlK8ajc7aqrex/yKzEUf3aRa475Sv6U2J8xuld+Q5zWWZVv0sJcsEIYvwYPilPOBpWooSm+fadpd/bRIyhzrkw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rapha\\source\\repos\\DesignPatternEtudes\\Behavioral\\TwoSum\\TwoSum.csproj",
+  "projectFilePath": "C:\\Users\\rapha\\source\\repos\\InterviewPrep\\Arrays and Strings\\TwoSum\\TwoSum.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
