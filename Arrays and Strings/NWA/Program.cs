@@ -42,6 +42,10 @@ namespace NWA
                             nums[j] = tmp;
                             break;
                         }
+                        else
+                        {
+                            if (nums[nums.Length - 1] == 0) return;
+                        }
                     }
                 }
             }    
