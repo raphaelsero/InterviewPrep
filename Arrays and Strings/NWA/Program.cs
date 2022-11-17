@@ -6,7 +6,7 @@
 using System.Linq;
 using System.Diagnostics;
 
-namespace ConsoleApp1
+namespace NWA
 {
     class Program 
     { 
@@ -41,10 +41,6 @@ namespace ConsoleApp1
                             nums[i] = nums[j];
                             nums[j] = tmp;
                             break;
-                        }
-                        else 
-                        {
-                            if (j == nums.Length - 1) return;
                         }
                     }
                 }

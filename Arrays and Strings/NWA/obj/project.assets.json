@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rapha\\source\\repos\\InterviewPrep\\Arrays and Strings\\ConsoleApp1\\ConsoleApp1.csproj",
-      "projectName": "ConsoleApp1",
-      "projectPath": "C:\\Users\\rapha\\source\\repos\\InterviewPrep\\Arrays and Strings\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectUniqueName": "C:\\Users\\rapha\\source\\repos\\InterviewPrep\\Arrays and Strings\\NWA\\NWA.csproj",
+      "projectName": "NWA",
+      "projectPath": "C:\\Users\\rapha\\source\\repos\\InterviewPrep\\Arrays and Strings\\NWA\\NWA.csproj",
       "packagesPath": "C:\\Users\\rapha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rapha\\source\\repos\\InterviewPrep\\Arrays and Strings\\ConsoleApp1\\obj\\",
+      "outputPath": "C:\\Users\\rapha\\source\\repos\\InterviewPrep\\Arrays and Strings\\NWA\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
